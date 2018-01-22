@@ -14,9 +14,7 @@ Django model mixins and utilities. django-model-utils supports Django 1.8 throug
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/django-model-utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-model-utils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/django-model-utils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/django-model-utils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/django-model-utils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/django-model-utils-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/django-model-utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/django-model-utils-feedstock)
 
 Current release info
 ====================
