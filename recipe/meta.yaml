@@ -1,6 +1,6 @@
 {% set name = "django-model-utils" %}
-{% set version = "3.2.0" %}
-{% set sha256 = "682f58c1de330cedcda58cc85d5232c5b47a9e2cb67bef4541fb43fdaeb18e96" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "adf09e5be15122a7f4e372cb5a6dd512bbf8d78a23a90770ad0983ee9d909061" %}
 
 package:
   name: {{ name|lower }}
