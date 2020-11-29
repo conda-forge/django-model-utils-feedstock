@@ -1,6 +1,6 @@
 {% set name = "django-model-utils" %}
-{% set version = "4.0.0" %}
-{% set sha256 = "adf09e5be15122a7f4e372cb5a6dd512bbf8d78a23a90770ad0983ee9d909061" %}
+{% set version = "4.1.0" %}
+{% set sha256 = "70cedefa4c9481be611082a8bd3dd8bba54280c2ead187d982a464be02a8d279" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
@@ -29,10 +29,8 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Django model mixins and utilities.'
-  description: 
-    Django model mixins and utilities. django-model-utils supports Django 1.8 through 
-    1.10 (latest bugfix release in each series only) on Python 2.7, 3.3 (Django 1.8 only), 3.4 and 3.5.
+  summary: Django model mixins and utilities.
+  description: Django model mixins and utilities. django-model-utils supports Django 1.8 through 1.10 (latest bugfix release in each series only) on Python 2.7, 3.3 (Django 1.8 only), 3.4 and 3.5.
   doc_url: https://django-model-utils.readthedocs.io/en/latest/
   dev_url: https://github.com/jazzband/django-model-utils
 
