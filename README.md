@@ -5,9 +5,13 @@ Home: https://github.com/jazzband/django-model-utils
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-model-utils-feedstock/blob/master/LICENSE.txt)
 
 Summary: Django model mixins and utilities.
+
+Development: https://github.com/jazzband/django-model-utils
+
+Documentation: https://django-model-utils.readthedocs.io/en/latest/
 
 Django model mixins and utilities. django-model-utils supports Django 1.8 through 1.10 (latest bugfix release in each series only) on Python 2.7, 3.3 (Django 1.8 only), 3.4 and 3.5.
 
