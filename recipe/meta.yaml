@@ -18,11 +18,20 @@ build:
 
 requirements:
   host:
-    - python
-    - setuptools
+    - python >3.7
+    - setuptools-scm
+    - pip
   run:
-    - python
+    - python >3.7
     - django >=1.8
+
+test:
+  imports:
+    - model_utils
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/jazzband/django-model-utils
@@ -37,4 +46,7 @@ about:
 extra:
   recipe-maintainers:
     - cshaley
-    - sannykr
+    - rxm7706
+    - millsks
+    - elanqo
+    - zaigner
