@@ -1,11 +1,11 @@
-About django-model-utils
-========================
+About django-model-utils-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-model-utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jazzband/django-model-utils
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-model-utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Django model mixins and utilities.
 
@@ -101,7 +101,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
@@ -150,5 +150,8 @@ Feedstock Maintainers
 =====================
 
 * [@cshaley](https://github.com/cshaley/)
-* [@sannykr](https://github.com/sannykr/)
+* [@elanqo](https://github.com/elanqo/)
+* [@millsks](https://github.com/millsks/)
+* [@rxm7706](https://github.com/rxm7706/)
+* [@zaigner](https://github.com/zaigner/)
 
