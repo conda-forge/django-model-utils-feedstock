@@ -1,5 +1,5 @@
 {% set name = "django-model-utils" %}
-{% set version = "4.4.0" %}
+{% set version = "4.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-model-utils-{{ version }}.tar.gz
-  sha256: 7b73179480e4d4a737d0188e7c49da03776bbadedad569a534c4e9f1afc004d4
+  sha256: 08715a87fe114d1038c889c1c9eadade5f400f16230a9988e6ee36ace589240b
 
 build:
   noarch: python
