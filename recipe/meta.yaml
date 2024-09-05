@@ -12,13 +12,14 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
     - python >=3.8
     - setuptools-scm
     - pip
+    - setuptools
   run:
     - python >=3.8
     - django >=3.2
